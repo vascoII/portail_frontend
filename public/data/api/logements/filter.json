@@ -1,0 +1,2470 @@
+{
+    "logements": [
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119968,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "0",
+                        "NumOrdre": "1",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 103964,
+                        "Nom": "GARDIEN.............",
+                        "Ref": "",
+                        "DateArrivee": "1972-07-15T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 4,
+                    "NbCompteursEC": 2,
+                    "NbCompteursEF": 2,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 0,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 2953144,
+                                "Numero": "63509403",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953145,
+                                "Numero": "61209564",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953146,
+                                "Numero": "63509416",
+                                "Emplacement": "WC",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953147,
+                                "Numero": "61209576",
+                                "Emplacement": "WC",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EF": {
+                        "count": 2,
+                        "label": "Eau froide"
+                    },
+                    "EC": {
+                        "count": 2,
+                        "label": "Eau chaude"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119969,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "0",
+                        "NumOrdre": "2",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 103965,
+                        "Nom": "LEMAIGRE",
+                        "Ref": "565 33",
+                        "DateArrivee": "1972-07-15T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 2,
+                    "NbCompteursEC": 1,
+                    "NbCompteursEF": 1,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 0,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 2953148,
+                                "Numero": "63509401",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953149,
+                                "Numero": "61209465",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EF": {
+                        "count": 1,
+                        "label": "Eau froide"
+                    },
+                    "EC": {
+                        "count": 1,
+                        "label": "Eau chaude"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119970,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "1",
+                        "NumOrdre": "1",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 103966,
+                        "Nom": "ZANTOUT",
+                        "Ref": "755 35",
+                        "DateArrivee": "1997-02-11T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 4,
+                    "NbCompteursEC": 2,
+                    "NbCompteursEF": 2,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 1,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 2953150,
+                                "Numero": "63509408",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 3663433,
+                                "Numero": "71813893",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953151,
+                                "Numero": "63509404",
+                                "Emplacement": "WC",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953152,
+                                "Numero": "61209538",
+                                "Emplacement": "WC",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EF": {
+                        "count": 2,
+                        "label": "Eau froide"
+                    },
+                    "EC": {
+                        "count": 2,
+                        "label": "Eau chaude"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119971,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "1",
+                        "NumOrdre": "2",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 451148,
+                        "Nom": "AUBER",
+                        "Ref": "370 34",
+                        "DateArrivee": "2005-12-01T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 4,
+                    "NbCompteursEC": 2,
+                    "NbCompteursEF": 2,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 0,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 3806059,
+                                "Numero": "71812158",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 3806060,
+                                "Numero": "72533178",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953155,
+                                "Numero": "63509405",
+                                "Emplacement": "WC",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953156,
+                                "Numero": "61209545",
+                                "Emplacement": "WC",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EC": {
+                        "count": 2,
+                        "label": "Eau chaude"
+                    },
+                    "EF": {
+                        "count": 2,
+                        "label": "Eau froide"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119972,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "2",
+                        "NumOrdre": "1",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 451149,
+                        "Nom": "CABINET MEDICAL",
+                        "Ref": "190 36",
+                        "DateArrivee": "2005-12-01T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 6,
+                    "NbCompteursEC": 3,
+                    "NbCompteursEF": 3,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 3,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 2953179,
+                                "Numero": "63509698",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953218,
+                                "Numero": "63509683",
+                                "Emplacement": "WC",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953215,
+                                "Numero": "63509697",
+                                "Emplacement": "WC",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 3806061,
+                                "Numero": "71814271",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953220,
+                                "Numero": "61209531",
+                                "Emplacement": "WC",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953216,
+                                "Numero": "61209546",
+                                "Emplacement": "WC",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EF": {
+                        "count": 3,
+                        "label": "Eau froide"
+                    },
+                    "EC": {
+                        "count": 3,
+                        "label": "Eau chaude"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119973,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "3",
+                        "NumOrdre": "1",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 103969,
+                        "Nom": "ALMEJAYLAN (VIDE)",
+                        "Ref": "707 39",
+                        "DateArrivee": "1998-11-01T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 1,
+                    "NbCompteursEC": 0,
+                    "NbCompteursEF": 1,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 0,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 2953221,
+                                "Numero": "63509700",
+                                "Emplacement": "DEBARRAS",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EF": {
+                        "count": 1,
+                        "label": "Eau froide"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119974,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "3",
+                        "NumOrdre": "2",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 103970,
+                        "Nom": "ALMEJAYLAN (VIDE)",
+                        "Ref": "706 38",
+                        "DateArrivee": "1989-01-22T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 5,
+                    "NbCompteursEC": 3,
+                    "NbCompteursEF": 2,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 0,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 2953222,
+                                "Numero": "61209554",
+                                "Emplacement": "DEBARRAS",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 3629199,
+                                "Numero": "CODE_52",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953226,
+                                "Numero": "61209461",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953228,
+                                "Numero": "61210473",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 3208491,
+                                "Numero": "64100361",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EC": {
+                        "count": 3,
+                        "label": "Eau chaude"
+                    },
+                    "EF": {
+                        "count": 2,
+                        "label": "Eau froide"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119975,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "4",
+                        "NumOrdre": "1",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 499094,
+                        "Nom": "BALLOIN",
+                        "Ref": "055 41",
+                        "DateArrivee": "2007-10-01T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 6,
+                    "NbCompteursEC": 3,
+                    "NbCompteursEF": 3,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 0,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 2953229,
+                                "Numero": "63509526",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953231,
+                                "Numero": "CODE_52",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953241,
+                                "Numero": "63509556",
+                                "Emplacement": "WC",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953230,
+                                "Numero": "61209528",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 801833,
+                                "Numero": "CODE_52",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953240,
+                                "Numero": "61209523",
+                                "Emplacement": "WC",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EF": {
+                        "count": 3,
+                        "label": "Eau froide"
+                    },
+                    "EC": {
+                        "count": 3,
+                        "label": "Eau chaude"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119976,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "4",
+                        "NumOrdre": "2",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 481385,
+                        "Nom": "SCHENKARTAL",
+                        "Ref": "270 40",
+                        "DateArrivee": "2007-01-01T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 4,
+                    "NbCompteursEC": 2,
+                    "NbCompteursEF": 2,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 4,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 2953242,
+                                "Numero": "63509549",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953244,
+                                "Numero": "61209527",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953246,
+                                "Numero": "63509554",
+                                "Emplacement": "WC",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953251,
+                                "Numero": "61209568",
+                                "Emplacement": "WC",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EF": {
+                        "count": 2,
+                        "label": "Eau froide"
+                    },
+                    "EC": {
+                        "count": 2,
+                        "label": "Eau chaude"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119977,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "5",
+                        "NumOrdre": "1",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 103923,
+                        "Nom": "FARAGIO",
+                        "Ref": "",
+                        "DateArrivee": "1991-12-05T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 1,
+                    "NbCompteursEC": 0,
+                    "NbCompteursEF": 1,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 0,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 198843,
+                                "Numero": "PASRELEVE",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EF": {
+                        "count": 1,
+                        "label": "Eau froide"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119978,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "5",
+                        "NumOrdre": "2",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 421508,
+                        "Nom": "ALGESSY",
+                        "Ref": "592 42",
+                        "DateArrivee": "2005-04-26T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 2,
+                    "NbCompteursEC": 1,
+                    "NbCompteursEF": 1,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 2,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 2953253,
+                                "Numero": "63509689",
+                                "Emplacement": "WC",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953254,
+                                "Numero": "61209447",
+                                "Emplacement": "WC",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EF": {
+                        "count": 1,
+                        "label": "Eau froide"
+                    },
+                    "EC": {
+                        "count": 1,
+                        "label": "Eau chaude"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119979,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "5",
+                        "NumOrdre": "3",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 1754678,
+                        "Nom": "TADERA",
+                        "Ref": "592 42",
+                        "DateArrivee": "2018-01-01T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 5,
+                    "NbCompteursEC": 3,
+                    "NbCompteursEF": 2,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 1,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 198850,
+                                "Numero": "CODE_52",
+                                "Emplacement": "CHAMBRE",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 744502,
+                                "Numero": "05PA179126",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 3208492,
+                                "Numero": "64100177",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 744501,
+                                "Numero": "05PA179125",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 3208493,
+                                "Numero": "64100809",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EC": {
+                        "count": 3,
+                        "label": "Eau chaude"
+                    },
+                    "EF": {
+                        "count": 2,
+                        "label": "Eau froide"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119980,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "6",
+                        "NumOrdre": "1",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 103926,
+                        "Nom": "SARAN",
+                        "Ref": "080 45",
+                        "DateArrivee": "1996-04-28T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 7,
+                    "NbCompteursEC": 3,
+                    "NbCompteursEF": 4,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": -1,
+                    "NbAnomalies": 1,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 2953386,
+                                "Numero": "63509455",
+                                "Emplacement": "CHAMBRE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953387,
+                                "Numero": "63509535",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953388,
+                                "Numero": "63509558",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 4924026,
+                                "Numero": "02932701",
+                                "Emplacement": "CHAMBRE",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 4924019,
+                                "Numero": "02932701",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953390,
+                                "Numero": "61209451",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953389,
+                                "Numero": "61209521",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EF": {
+                        "count": 4,
+                        "label": "Eau froide"
+                    },
+                    "EC": {
+                        "count": 3,
+                        "label": "Eau chaude"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119981,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "7",
+                        "NumOrdre": "1",
+                        "Type": "  "
+                    },
+                    "Occupant": {
+                        "PkOccupant": 1742216,
+                        "Nom": "SCI MONTAIGNE",
+                        "Ref": "680 47",
+                        "DateArrivee": "2017-11-08T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 5,
+                    "NbCompteursEC": 2,
+                    "NbCompteursEF": 3,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 0,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 3629203,
+                                "Numero": "CODE_52",
+                                "Emplacement": "CHAMBRE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953392,
+                                "Numero": "63509550",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953393,
+                                "Numero": "61209556",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953395,
+                                "Numero": "63509555",
+                                "Emplacement": "WC",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953396,
+                                "Numero": "61209469",
+                                "Emplacement": "WC",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EF": {
+                        "count": 3,
+                        "label": "Eau froide"
+                    },
+                    "EC": {
+                        "count": 2,
+                        "label": "Eau chaude"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119982,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "7",
+                        "NumOrdre": "2",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 103928,
+                        "Nom": "BERGERON",
+                        "Ref": "966 46",
+                        "DateArrivee": "1972-07-15T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 4,
+                    "NbCompteursEC": 2,
+                    "NbCompteursEF": 2,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 2,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 2953398,
+                                "Numero": "61209484",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953397,
+                                "Numero": "63509553",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953400,
+                                "Numero": "61209555",
+                                "Emplacement": "WC",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953399,
+                                "Numero": "63509557",
+                                "Emplacement": "WC",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EC": {
+                        "count": 2,
+                        "label": "Eau chaude"
+                    },
+                    "EF": {
+                        "count": 2,
+                        "label": "Eau froide"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119983,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "8",
+                        "NumOrdre": "1",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 451147,
+                        "Nom": "FARIA",
+                        "Ref": "612 49",
+                        "DateArrivee": "2005-12-01T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 4,
+                    "NbCompteursEC": 2,
+                    "NbCompteursEF": 2,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 0,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 3208494,
+                                "Numero": "64100804",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 3208495,
+                                "Numero": "57004173",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 3208497,
+                                "Numero": "56923203",
+                                "Emplacement": "WC",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 3208496,
+                                "Numero": "64101109",
+                                "Emplacement": "WC",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EF": {
+                        "count": 2,
+                        "label": "Eau froide"
+                    },
+                    "EC": {
+                        "count": 2,
+                        "label": "Eau chaude"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119984,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "8",
+                        "NumOrdre": "2",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 1642232,
+                        "Nom": "LOSTORTO",
+                        "Ref": "230 48",
+                        "DateArrivee": "2016-12-01T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 4,
+                    "NbCompteursEC": 2,
+                    "NbCompteursEF": 2,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 0,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 2953401,
+                                "Numero": "63509406",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953402,
+                                "Numero": "61209565",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953403,
+                                "Numero": "63509414",
+                                "Emplacement": "WC",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953404,
+                                "Numero": "61209572",
+                                "Emplacement": "WC",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EF": {
+                        "count": 2,
+                        "label": "Eau froide"
+                    },
+                    "EC": {
+                        "count": 2,
+                        "label": "Eau chaude"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119985,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "8",
+                        "NumOrdre": "3",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 103931,
+                        "Nom": "COMMUNS",
+                        "Ref": "",
+                        "DateArrivee": "1972-07-15T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 1,
+                    "NbCompteursEC": 0,
+                    "NbCompteursEF": 1,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 0,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 198874,
+                                "Numero": "5015299",
+                                "Emplacement": "WC",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EF": {
+                        "count": 1,
+                        "label": "Eau froide"
+                    }
+                }
+            },
+            {
+                "infosLogement": {
+                    "Immeuble": {
+                        "PkImmeuble": 2833,
+                        "Nom": "",
+                        "Numero": "032001",
+                        "Ref": "",
+                        "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                        "Adresse2": "",
+                        "Adresse3": "",
+                        "Cp": "75008",
+                        "Ville": "PARIS",
+                        "HasTelereleve": false,
+                        "FkClientTop": 39755,
+                        "Actif": true,
+                        "DateActivationClient": "0001-01-01T00:00:00",
+                        "DateActivationOccupant": "0001-01-01T00:00:00",
+                        "HasNoteOccupant": true,
+                        "HasDecompteOccupant": true,
+                        "HasFactures": false,
+                        "HasChantiers": false
+                    },
+                    "Logement": {
+                        "PkLogement": 119986,
+                        "NumBatiment": "1",
+                        "AdrBatiment": "20 AVE MONTAIGNE / 32 RUE JEAN GOUJON",
+                        "NumEscalier": "1",
+                        "AdrEscalier": "",
+                        "NumEtage": "9",
+                        "NumOrdre": "1",
+                        "Type": ""
+                    },
+                    "Occupant": {
+                        "PkOccupant": 359618,
+                        "Nom": "DE PICHAUTO",
+                        "Ref": "991 50",
+                        "DateArrivee": "2003-11-03T00:00:00",
+                        "DateDepart": "2999-12-31T00:00:00"
+                    },
+                    "NbAppareils": 6,
+                    "NbCompteursEC": 3,
+                    "NbCompteursEF": 3,
+                    "NbCompteursRepart": 0,
+                    "NbCompteursCET": 0,
+                    "NbCompteursCapteur": 0,
+                    "NbFuites": 0,
+                    "NbDepannages": -1,
+                    "NbDysfonctionnements": 0,
+                    "NbAnomalies": 1,
+                    "NbTicketsInter": 0,
+                    "TicketsInterEnabled": true,
+                    "ListeAppareils": {
+                        "appareil": [
+                            {
+                                "PkAppareil": 2953405,
+                                "Numero": "63509411",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953407,
+                                "Numero": "63509409",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953409,
+                                "Numero": "63509413",
+                                "Emplacement": "WC",
+                                "Fluide": "EF",
+                                "TypeAppareil": "EF",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953406,
+                                "Numero": "61209557",
+                                "Emplacement": "CUISINE",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953408,
+                                "Numero": "61209553",
+                                "Emplacement": "SALLE DE BAINS",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            },
+                            {
+                                "PkAppareil": 2953410,
+                                "Numero": "61209542",
+                                "Emplacement": "WC",
+                                "Fluide": "EC",
+                                "TypeAppareil": "EC",
+                                "Unite": "m3"
+                            }
+                        ]
+                    }
+                },
+                "comptesAppareils": {
+                    "EF": {
+                        "count": 3,
+                        "label": "Eau froide"
+                    },
+                    "EC": {
+                        "count": 3,
+                        "label": "Eau chaude"
+                    }
+                }
+            }
+        ],
+        "filters": {
+            "batiment": [
+                "1"
+            ],
+            "escalier": [
+                "1"
+            ],
+            "etage": {
+                "0": "0",
+                "2": "1",
+                "4": "2",
+                "5": "3",
+                "7": "4",
+                "9": "5",
+                "12": "6",
+                "13": "7",
+                "15": "8",
+                "18": "9"
+            }
+        },
+        "gestion": false,
+        "immeuble": {
+            "Erreur": "",
+            "Info": "",
+            "Immeuble": {
+                "PkImmeuble": 2833,
+                "Nom": "",
+                "Numero": "032001",
+                "Ref": "",
+                "Adresse1": "20 AVENUE MONTAIGNE/32 RUE JEAN GOUJON",
+                "Adresse2": "",
+                "Adresse3": "",
+                "Cp": "75008",
+                "Ville": "PARIS",
+                "HasTelereleve": false,
+                "FkClientTop": 39755,
+                "Actif": true,
+                "DateActivationClient": "0001-01-01T00:00:00",
+                "DateActivationOccupant": "0001-01-01T00:00:00",
+                "HasNoteOccupant": true,
+                "HasDecompteOccupant": true,
+                "HasFactures": true,
+                "HasChantiers": false
+            },
+            "NbLogements": 19,
+            "NbAppareils": 75,
+            "NbDepannages": 0,
+            "NbDepannagesTotal": 0,
+            "NbDysfonctionnements": 0,
+            "HasTelereleve": false,
+            "NbCompteursEC": 36,
+            "NbCompteursEF": 39,
+            "NbCompteursRepart": 0,
+            "NbCompteursCET": 0,
+            "NbCompteursCapteur": 0,
+            "NbCompteursTelereveleTotal": -1,
+            "NbCompteursTelereveleOK": -1,
+            "HasTransfertFichiers": false,
+            "ImmeubleEC": {
+                "NbCompteursARelever": 70,
+                "NbCompteursReleves": 60,
+                "NbFuites": 0,
+                "NbAnomalies": 9,
+                "Chantier": {
+                    "PkChantier": -1,
+                    "PkDevis": -1,
+                    "PkImmeuble": -1,
+                    "DateEntreeChantier": "0001-01-01T00:00:00",
+                    "NbCompteursPoses": -1,
+                    "NbCompteursCommandes": -1
+                },
+                "TopConsos": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DateReleve": "2025-11-27T00:00:00",
+                    "consosGrandes": {
+                        "conso": [
+                            {
+                                "PkLogement": 119971,
+                                "NomOcc": "AUBER",
+                                "RefOcc": "370 34",
+                                "Fluide": 1,
+                                "Conso": "60"
+                            },
+                            {
+                                "PkLogement": 119981,
+                                "NomOcc": "SCI MONTAIGNE",
+                                "RefOcc": "680 47",
+                                "Fluide": 1,
+                                "Conso": "11"
+                            },
+                            {
+                                "PkLogement": 119974,
+                                "NomOcc": "ALMEJAYLAN (VIDE)",
+                                "RefOcc": "706 38",
+                                "Fluide": 1,
+                                "Conso": "10"
+                            },
+                            {
+                                "PkLogement": 119969,
+                                "NomOcc": "LEMAIGRE",
+                                "RefOcc": "565 33",
+                                "Fluide": 1,
+                                "Conso": "8"
+                            },
+                            {
+                                "PkLogement": 119986,
+                                "NomOcc": "DE PICHAUTO",
+                                "RefOcc": "991 50",
+                                "Fluide": 1,
+                                "Conso": "8"
+                            }
+                        ]
+                    },
+                    "consosPetites": {
+                        "conso": [
+                            {
+                                "PkLogement": 119974,
+                                "NomOcc": "ALMEJAYLAN (VIDE)",
+                                "RefOcc": "706 38",
+                                "Fluide": 1,
+                                "Conso": "0"
+                            },
+                            {
+                                "PkLogement": 119986,
+                                "NomOcc": "DE PICHAUTO",
+                                "RefOcc": "991 50",
+                                "Fluide": 1,
+                                "Conso": "0"
+                            },
+                            {
+                                "PkLogement": 119976,
+                                "NomOcc": "SCHENKARTAL",
+                                "RefOcc": "270 40",
+                                "Fluide": 1,
+                                "Conso": "0"
+                            },
+                            {
+                                "PkLogement": 119975,
+                                "NomOcc": "BALLOIN",
+                                "RefOcc": "055 41",
+                                "Fluide": 1,
+                                "Conso": "0"
+                            },
+                            {
+                                "PkLogement": 119978,
+                                "NomOcc": "ALGESSY",
+                                "RefOcc": "592 42",
+                                "Fluide": 1,
+                                "Conso": "0"
+                            }
+                        ]
+                    }
+                },
+                "SerieConsos1": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DefaultIntervalle": 365,
+                    "ValeursXYL": "",
+                    "Annee": "2026"
+                },
+                "SerieConsos2": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DefaultIntervalle": 365,
+                    "ValeursXYL": "Janv|139,3|2275|VIRTUAL=O;Févr|142|2300|VIRTUAL=O;Mars|144,7|2325|VIRTUAL=O;Avr|147,3|2350|VIRTUAL=O;Mai|150|2375|VIRTUAL=N;Juin|146|2396|VIRTUAL=O;Juil|142|2417|VIRTUAL=O;Août|138|2438|VIRTUAL=O;Sept|134|2459|VIRTUAL=O;Oct|130|2480|VIRTUAL=O;Nov|126|2501|VIRTUAL=N;Déc|-1|-1|VISIBLE=N",
+                    "Annee": "2025"
+                },
+                "ListeReleves": {
+                    "releve": [
+                        {
+                            "PkReleve": 1567429,
+                            "DateReleve": "2025-11-27T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1525320,
+                            "DateReleve": "2025-05-26T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1475541,
+                            "DateReleve": "2024-11-21T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1434780,
+                            "DateReleve": "2024-05-16T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1390858,
+                            "DateReleve": "2023-11-09T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1355958,
+                            "DateReleve": "2023-05-23T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1315100,
+                            "DateReleve": "2022-11-21T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1274518,
+                            "DateReleve": "2022-05-11T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1232545,
+                            "DateReleve": "2021-11-03T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1178279,
+                            "DateReleve": "2021-05-12T00:00:00",
+                            "TypeERC": "EAU"
+                        }
+                    ]
+                }
+            },
+            "ImmeubleEF": {
+                "NbCompteursARelever": 70,
+                "NbCompteursReleves": 60,
+                "NbFuites": 0,
+                "NbAnomalies": 6,
+                "Chantier": {
+                    "PkChantier": -1,
+                    "PkDevis": -1,
+                    "PkImmeuble": -1,
+                    "DateEntreeChantier": "0001-01-01T00:00:00",
+                    "NbCompteursPoses": -1,
+                    "NbCompteursCommandes": -1
+                },
+                "TopConsos": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DateReleve": "2025-11-27T00:00:00",
+                    "consosGrandes": {
+                        "conso": [
+                            {
+                                "PkLogement": 119971,
+                                "NomOcc": "AUBER",
+                                "RefOcc": "370 34",
+                                "Fluide": 2,
+                                "Conso": "669"
+                            },
+                            {
+                                "PkLogement": 119982,
+                                "NomOcc": "BERGERON",
+                                "RefOcc": "966 46",
+                                "Fluide": 2,
+                                "Conso": "198"
+                            },
+                            {
+                                "PkLogement": 119979,
+                                "NomOcc": "TADERA",
+                                "RefOcc": "592 42",
+                                "Fluide": 2,
+                                "Conso": "165"
+                            },
+                            {
+                                "PkLogement": 119984,
+                                "NomOcc": "LOSTORTO",
+                                "RefOcc": "230 48",
+                                "Fluide": 2,
+                                "Conso": "85"
+                            },
+                            {
+                                "PkLogement": 119986,
+                                "NomOcc": "DE PICHAUTO",
+                                "RefOcc": "991 50",
+                                "Fluide": 2,
+                                "Conso": "73"
+                            }
+                        ]
+                    },
+                    "consosPetites": {
+                        "conso": [
+                            {
+                                "PkLogement": 119980,
+                                "NomOcc": "SARAN",
+                                "RefOcc": "080 45",
+                                "Fluide": 2,
+                                "Conso": "0"
+                            },
+                            {
+                                "PkLogement": 119972,
+                                "NomOcc": "CABINET MEDICAL",
+                                "RefOcc": "190 36",
+                                "Fluide": 2,
+                                "Conso": "0"
+                            },
+                            {
+                                "PkLogement": 119982,
+                                "NomOcc": "BERGERON",
+                                "RefOcc": "966 46",
+                                "Fluide": 2,
+                                "Conso": "0"
+                            },
+                            {
+                                "PkLogement": 119981,
+                                "NomOcc": "SCI MONTAIGNE",
+                                "RefOcc": "680 47",
+                                "Fluide": 2,
+                                "Conso": "0"
+                            },
+                            {
+                                "PkLogement": 119986,
+                                "NomOcc": "DE PICHAUTO",
+                                "RefOcc": "991 50",
+                                "Fluide": 2,
+                                "Conso": "0"
+                            }
+                        ]
+                    }
+                },
+                "SerieConsos1": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DefaultIntervalle": 365,
+                    "ValeursXYL": "",
+                    "Annee": "2026"
+                },
+                "SerieConsos2": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DefaultIntervalle": 365,
+                    "ValeursXYL": "Janv|972,7|17612,3|VIRTUAL=O;Févr|879|17712|VIRTUAL=O;Mars|785,3|17811,7|VIRTUAL=O;Avr|691,7|17911,3|VIRTUAL=O;Mai|598|18011|VIRTUAL=N;Juin|746,7|18259,3|VIRTUAL=O;Juil|895,3|18507,7|VIRTUAL=O;Août|1044|18756|VIRTUAL=O;Sept|1192,7|19004,3|VIRTUAL=O;Oct|1341,3|19252,7|VIRTUAL=O;Nov|1490|19501|VIRTUAL=N;Déc|-1|-1|VISIBLE=N",
+                    "Annee": "2025"
+                },
+                "ListeReleves": {
+                    "releve": [
+                        {
+                            "PkReleve": 1567429,
+                            "DateReleve": "2025-11-27T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1525320,
+                            "DateReleve": "2025-05-26T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1475541,
+                            "DateReleve": "2024-11-21T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1434780,
+                            "DateReleve": "2024-05-16T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1390858,
+                            "DateReleve": "2023-11-09T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1355958,
+                            "DateReleve": "2023-05-23T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1315100,
+                            "DateReleve": "2022-11-21T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1274518,
+                            "DateReleve": "2022-05-11T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1232545,
+                            "DateReleve": "2021-11-03T00:00:00",
+                            "TypeERC": "EAU"
+                        },
+                        {
+                            "PkReleve": 1178279,
+                            "DateReleve": "2021-05-12T00:00:00",
+                            "TypeERC": "EAU"
+                        }
+                    ]
+                }
+            },
+            "ImmeubleRepart": {
+                "NbCompteursARelever": -1,
+                "NbCompteursReleves": -1,
+                "Chantier": {
+                    "PkChantier": -1,
+                    "PkDevis": -1,
+                    "PkImmeuble": -1,
+                    "DateEntreeChantier": "0001-01-01T00:00:00",
+                    "NbCompteursPoses": -1,
+                    "NbCompteursCommandes": -1
+                },
+                "TopConsos": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DateReleve": "0001-01-01T00:00:00",
+                    "consosGrandes": [],
+                    "consosPetites": []
+                },
+                "SerieConsos": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DefaultIntervalle": 365,
+                    "ValeursXYL": "",
+                    "Annee": ""
+                },
+                "ListeReleves": [],
+                "Tot_URepart": "-1",
+                "Tot_TantChauff": "-1",
+                "PU_Tant": "-1",
+                "Prix_URepart": "-1",
+                "Prix_Abonn": "-1",
+                "Mont_ARepartTant": "-1",
+                "Part_RepartConsos": "-1",
+                "CT_Combust": "-1",
+                "SerieConsosTotale1": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DefaultIntervalle": 365,
+                    "ValeursXYL": "",
+                    "Annee": ""
+                },
+                "SerieConsosTotale2": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DefaultIntervalle": 365,
+                    "ValeursXYL": "",
+                    "Annee": ""
+                },
+                "SerieConsosDJU": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DefaultIntervalle": 365,
+                    "ValeursXYL": "",
+                    "Annee": ""
+                }
+            },
+            "ImmeubleCET": {
+                "NbCompteursARelever": -1,
+                "NbCompteursReleves": -1,
+                "Chantier": {
+                    "PkChantier": -1,
+                    "PkDevis": -1,
+                    "PkImmeuble": -1,
+                    "DateEntreeChantier": "0001-01-01T00:00:00",
+                    "NbCompteursPoses": -1,
+                    "NbCompteursCommandes": -1
+                },
+                "TopConsos": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DateReleve": "0001-01-01T00:00:00",
+                    "consosGrandes": [],
+                    "consosPetites": []
+                },
+                "SerieConsos": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DefaultIntervalle": 365,
+                    "ValeursXYL": "",
+                    "Annee": ""
+                },
+                "ListeReleves": [],
+                "Tot_URepart": "-1",
+                "Tot_TantChauff": "-1",
+                "PU_Tant": "-1",
+                "Prix_URepart": "-1",
+                "Prix_Abonn": "-1",
+                "Mont_ARepartTant": "-1",
+                "Part_RepartConsos": "-1",
+                "CT_Combust": "-1",
+                "SerieConsosTotale1": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DefaultIntervalle": 365,
+                    "ValeursXYL": "",
+                    "Annee": ""
+                },
+                "SerieConsosTotale2": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DefaultIntervalle": 365,
+                    "ValeursXYL": "",
+                    "Annee": ""
+                },
+                "SerieConsosDJU": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DefaultIntervalle": 365,
+                    "ValeursXYL": "",
+                    "Annee": ""
+                }
+            },
+            "ImmeubleCapteur": {
+                "IndexRecapTemperature": {
+                    "Date": "0001-01-01T00:00:00",
+                    "Moy": "-1",
+                    "Max": "-1",
+                    "Min": "-1"
+                },
+                "IndexRecapHumidite": {
+                    "Date": "0001-01-01T00:00:00",
+                    "Moy": "-1",
+                    "Max": "-1",
+                    "Min": "-1"
+                },
+                "SerieConsosTemperature": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DefaultIntervalle": 365,
+                    "ValeursXYL": "",
+                    "Annee": ""
+                },
+                "SerieConsosHumidite": {
+                    "Erreur": "",
+                    "Info": "",
+                    "DefaultIntervalle": 365,
+                    "ValeursXYL": "",
+                    "Annee": ""
+                }
+            },
+            "SerieConsosEAU": {
+                "Erreur": "",
+                "Info": "",
+                "DefaultIntervalle": 365,
+                "ValeursXYL": "12/05/2021|1650|12877;03/11/2021|408|13285;11/05/2022|324|13609;21/11/2022|1353|14962;23/05/2023|579|15541;09/11/2023|2002|17543;16/05/2024|801|18344;21/11/2024|1294|19638;26/05/2025|748|20386;27/11/2025|1616|22002",
+                "Annee": ""
+            },
+            "SerieConsosCompteurGeneral": {
+                "Erreur": "",
+                "Info": "",
+                "DefaultIntervalle": 365,
+                "ValeursXYL": "",
+                "Annee": ""
+            },
+            "SerieConsosECValues": [],
+            "SerieConsosEFValues": [],
+            "SerieConsosEAUValues": [
+                [
+                    "12/05/2021",
+                    "1650",
+                    "12877"
+                ],
+                [
+                    "03/11/2021",
+                    "408",
+                    "13285"
+                ],
+                [
+                    "11/05/2022",
+                    "324",
+                    "13609"
+                ],
+                [
+                    "21/11/2022",
+                    "1353",
+                    "14962"
+                ],
+                [
+                    "23/05/2023",
+                    "579",
+                    "15541"
+                ],
+                [
+                    "09/11/2023",
+                    "2002",
+                    "17543"
+                ],
+                [
+                    "16/05/2024",
+                    "801",
+                    "18344"
+                ],
+                [
+                    "21/11/2024",
+                    "1294",
+                    "19638"
+                ],
+                [
+                    "26/05/2025",
+                    "748",
+                    "20386"
+                ],
+                [
+                    "27/11/2025",
+                    "1616",
+                    "22002"
+                ]
+            ],
+            "SerieConsosRepartValues": [],
+            "SerieConsosEnergieValues": [],
+            "SerieConsosElectValues": [],
+            "SerieConsosGazValues": [],
+            "SerieConsosCompteurGeneralValues": [],
+            "PcCompteursTelereveleOK": 85.71,
+            "RatioNbDepannages": 0,
+            "RatioNbDysfonctionnements": 0
+        }
+}
