@@ -134,6 +134,58 @@
 
   --color-theme-purple-500: #7a5af8;
 
+  /* Couleurs Maison Mère - Techem */
+  --color-202020: #202020;
+  --color-212529: #212529;
+  --color-222222: #222222;
+  --color-282525: #282525;
+  --color-333333: #333333;
+  --color-555555: #555555;
+  --color-666666: #666666;
+  --color-909090: #909090;
+  --color-999999: #999999;
+  --color-swiper: #007AFF;
+  --color-background-highlight: #FAFAFA;
+  --color-background-dark: #A8A8A8;
+  --color-brand-primary: #0F70F0;
+  --color-brand-hover: #0C5ECB;
+  --color-brand-white: #FFFFFF;
+  --color-text-primary: #212121;
+  --color-text-secondary: #757575;
+  --color-text-neutral: #616161;
+  --color-link-primary: #0F70F0;
+  --color-borders: #DCDCDC;
+  --color-error: #940000;
+  --color-1d1914: #1D1914;
+  --color-2020e0: #2020E0;
+  --color-4c4c4c: #4C4C4C;
+  --color-6b7280: #6B7280;
+  --color-a0a0a0: #A0A0A0;
+  --color-ababab: #ABABAB;
+  --color-adb5bd: #ADB5BD;
+  --color-b2b2b2: #B2B2B2;
+  --color-cccccc: #CCCCCC;
+  --color-d1d1d1: #D1D1D1;
+  --color-dddddd: #DDDDDD;
+  --color-e20613: #E20613;
+  --color-e4e4e4: #E4E4E4;
+  --color-e7e7e7: #E7E7E7;
+  --color-e9ecef: #E9ECEF;
+  --color-f5f2f2: #F5F2F2;
+  --color-ff0000: #FF0000;
+
+  /* Polices Maison Mère - Techem */
+  --font-body: UniversLTPro-45Light, sans-serif;
+  --font-heading: UniversLTPro-45Light, sans-serif;
+  --font-arial: Arial, sans-serif;
+  --font-helvetica: Helvetica, sans-serif;
+  --font-universltpro-45light: UniversLTPro-45Light, sans-serif;
+  --font-universltpro-55roman: UniversLTPro-55Roman, sans-serif;
+  --font-universltw02-55roman: UniversLTW02-55Roman, sans-serif;
+  --font-universltw02-65bold: UniversLTW02-65Bold, sans-serif;
+  --font-verdana: Verdana, sans-serif;
+  --font-ui-sans-serif: ui-sans-serif, sans-serif;
+
   --shadow-theme-md:
     0px 4px 8px -2px rgba(16, 24, 40, 0.1),
     0px 2px 4px -2px rgba(16, 24, 40, 0.06);
