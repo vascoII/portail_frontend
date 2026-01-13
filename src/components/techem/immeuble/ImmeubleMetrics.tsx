@@ -209,13 +209,13 @@ export const ImmeubleMetrics = ({ pkImmeuble }: ImmeubleMetricsProps) => {
     <>
       <div className="overflow-hidden rounded-2xl border border-gray-200 bg-white px-4 pb-4 pt-5 dark:border-gray-800 dark:bg-white/[0.03] sm:px-6">
         <div className="grid grid-cols-2 gap-4 md:grid-cols-4 md:gap-6">
-        <Link href={`/immeuble/${pkImmeuble}/fuites`}>
-          <div className="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6">
+        <Link href={`/immeuble/${pkImmeuble}/fuites`} className="h-full">
+          <div className="flex flex-col h-full rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6">
             <div className="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-xl dark:bg-gray-800">
               <StatusIconsFuite size={24} className={fuitesColor} color="currentColor" />
             </div>
 
-            <div className="flex items-end justify-between mt-5">
+            <div className="flex items-end justify-between mt-5 flex-grow">
               <div>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Fuites</span>
                 <h4 className="mt-2 font-bold text-gray-800 text-title-sm dark:text-white/90">
@@ -223,15 +223,16 @@ export const ImmeubleMetrics = ({ pkImmeuble }: ImmeubleMetricsProps) => {
                 </h4>
               </div>
             </div>
+            <div className="mt-5 h-[33px]"></div>
           </div>
         </Link>
 
-        <Link href={`/immeuble/${pkImmeuble}/dysfonctionnements`}>
-          <div className="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6">
+        <Link href={`/immeuble/${pkImmeuble}/dysfonctionnements`} className="h-full">
+          <div className="flex flex-col h-full rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6">
             <div className="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-xl dark:bg-gray-800">
               <StatusIconsDysfonctionnement size={24} className={dysfonctionnementsColor} color="currentColor" />
             </div>
-            <div className="flex items-end justify-between mt-5">
+            <div className="flex items-end justify-between mt-5 flex-grow">
               <div>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Alarmes techniques</span>
                 <h4 className="mt-2 font-bold text-gray-800 text-title-sm dark:text-white/90">
@@ -239,16 +240,17 @@ export const ImmeubleMetrics = ({ pkImmeuble }: ImmeubleMetricsProps) => {
                 </h4>
               </div>
             </div>
+            <div className="mt-5 h-[33px]"></div>
           </div>
         </Link>
 
-        <Link href={`/immeuble/${pkImmeuble}/anomalies`}>
-          <div className="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6">
+        <Link href={`/immeuble/${pkImmeuble}/anomalies`} className="h-full">
+          <div className="flex flex-col h-full rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6">
             <div className="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-xl dark:bg-gray-800">
               <StatusIconsAnomalie size={24} className={anomaliesColor} color="currentColor" />
             </div>
 
-            <div className="flex items-end justify-between mt-5">
+            <div className="flex items-end justify-between mt-5 flex-grow">
               <div>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Anomalies de consommation</span>
                 <h4 className="mt-2 font-bold text-gray-800 text-title-sm dark:text-white/90">
@@ -256,15 +258,16 @@ export const ImmeubleMetrics = ({ pkImmeuble }: ImmeubleMetricsProps) => {
                 </h4>
               </div>
             </div>
+            <div className="mt-5 h-[33px]"></div>
           </div>
         </Link>
 
-        <Link href={`/immeuble/${pkImmeuble}/interventions`}>
-          <div className="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6">
+        <Link href={`/immeuble/${pkImmeuble}/interventions`} className="h-full">
+          <div className="flex flex-col h-full rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] md:p-6">
             <div className="flex items-center justify-center w-12 h-12 bg-gray-100 rounded-xl dark:bg-gray-800">
               <StatusIconsAlerte size={24} className={depannagesColor} color="currentColor" />
             </div>
-            <div className="flex items-end justify-between mt-5">
+            <div className="flex items-end justify-between mt-5 flex-grow">
               <div>
                 <span className="text-sm text-gray-500 dark:text-gray-400">Depannages en cours</span>
                 <h4 className="mt-2 font-bold text-gray-800 text-title-sm dark:text-white/90">
